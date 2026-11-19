@@ -1,0 +1,19 @@
+terminal
+
+
+cd smart-health-poc-frontend
+npm start
+(cd smart-health-poc-frontend && npm start)
+w
+
+
+
+
+
+
+
+cd smart-health-poc-backend
+source venv/Scripts/activate
+python -m uvicorn main:app --reload
+
+ 

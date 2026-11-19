@@ -1,0 +1,33 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# React Native / Expo
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Databases and private test data
+*.db
+*.sqlite
+*.sqlite3
+**/medical_history_test.pdf
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
